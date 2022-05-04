@@ -1,0 +1,171 @@
+body {
+  font-size: 1.1rem;
+  margin: 0;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+a {
+  color: #7F7F7F;
+}
+
+a:hover {
+  color: #AFAFAF;
+}
+
+.masonry-box {
+  margin: 0;
+  width: 49%;
+  display: inline;
+  position: relative;
+  background-color: #F5F5F5;
+}
+
+.small-ms-box {
+  margin: 0;
+  width: 49%;
+  padding-top: 2vw;
+  display: inline;
+  position: relative;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+img.masonry-box {
+  padding-top: 0;
+  aspect-ratio: 1 / 1;
+  padding: 0;
+  object-fit: cover;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.ms-box-text {
+  margin: 50px 70px;
+  color: #7F7F7F;
+}
+
+.full-width-box-text {
+  margin: 0;
+  color: #7F7F7F;
+  padding: 50px;
+  width: auto;
+  border-top: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+}
+
+.text-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  font-weight: 300;
+  color: #000000;
+}
+
+.full-width-box {
+  margin-left: 25px;
+  margin-right: 25px;
+  display: block;
+  max-width: 1150px;
+}
+
+.full-width-img {
+  display: block;
+  width: 100%;
+  max-width: 1150px;
+  margin-top: 2vw;
+}
+
+.hover-opacity {
+  opacity: 1;
+  transition: opacity 180ms ease-in;
+}
+
+.hover-opacity:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#header .header {
+  margin: 0px 15px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  border-style: none;
+  border-bottom: 1px solid #E2E2E2;
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.header-region {
+ width: 100%;
+ max-width: 1150px;
+}
+
+.content-box {
+  margin: 25px auto;
+  margin-top: 50px;
+  max-width: 1200px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1150px;
+  color: #000000;
+}
+
+.layer {
+  transition: 500ms ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  max-width: 1150px;
+  transition: 500ms ease;
+  backface-visibility: hidden;
+}
+
+.container:hover {
+  color: #000000;
+}
+
+.container:hover img {
+  opacity: 0.3;
+}
+
+.container:hover .layer {
+  opacity: 1;
+}
+
+.description {
+  font-size: 1.3rem;
+}
+
+.view-width-box {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.banner-image {
+  width: 100%;
+}
